@@ -5,6 +5,8 @@ title: merge-with-conflict
 
 我们在项目多人协同开发的时候，merge 小伙伴的代码，经常会出现 conflict, 使用 git 自带的工具来解决 conflict 在冲突比较少的情况下挺好用的，但是，在 conflict 很多的时候，我们还是使用 GUI 工具会比较好。
 
+<!--break-->
+
 使用 FileMerge 的 opendiff 就是一个不错的选择，首先，我们在 .gitconfig 加上
 
 ```
@@ -21,5 +23,3 @@ title: merge-with-conflict
 
 
 ![用FileMerge来解决冲突](http://ww3.sinaimg.cn/mw690/60ef0c80gw1eniudbsuwkj21400o90wv.jpg)
-
-

@@ -11,6 +11,8 @@ title: render partial
 
 上面的两行代码效果是一样的，下面那行的写法显然要简洁的多。
 
+<!--break-->
+
 我们来看看 render 的定义：
 	
 	{% highlight ruby %}

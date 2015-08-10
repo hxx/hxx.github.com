@@ -5,6 +5,8 @@ title: attr_accessor
 
 In Ruby, individual accessor and mutator methods may be defined, or the metaprogramming constructs `attr_reader` or `attr_accessor` may be used both to declare a private variable in a class and to provide either read-only or read-write public access to it respectively.
 
+<!--break-->
+
 Defining individual accessor and mutator methods creates space for pre-processing or validation of the data
 
     {% highlight ruby %}
@@ -42,4 +44,3 @@ Read-write simple public access to implied @name variable
         attr_accessor :name
       end
     {% endhighlight %}
-

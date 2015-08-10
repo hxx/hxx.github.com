@@ -6,6 +6,8 @@ title: Getting Started
 
 今天再次把RailsGuides里面的Getting Started再做了一遍。
 
+  <!--break-->
+
 由于环境已经搭建好，这次跑下来很顺利，对于每步要做什么和为什么要这么做比以前要理解的深刻些了。
 
 * 如何安装 Rails，新建 Rails 程序，如何连接数据库；
@@ -27,9 +29,9 @@ Rails的安装和新建Rails程序可以同过gem install rails 和 rails new pr
 ###MVC架构
 
 MVC（模型，视图，控制器），这种模式强制地将“域逻辑“”和图形用户界面（GUI）的输入、表现逻辑分开。在 Web 应用程序中，“域逻辑”的典型代表是“用户（users）”、“文章（articles）”和“产品（products）”等数据模型，GUI 则是浏览器中的网页。
- 
+
  以users来举例：
- 
+
 1. 浏览器向 /users 发起一个请求；
 2. Rails 的路由将 /user 分配到 Users 控制器的 index 动作；
 3. index 动作向 User 模型获取所有的用户（User.all）；

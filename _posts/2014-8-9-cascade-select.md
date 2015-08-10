@@ -5,6 +5,8 @@ title: cascade_select
 
 当有很多公司和对应的产品时，往往需要根据选择的公司，给出该公司对应的产品让用户选择，即所谓的 **级联选择**。
 
+<!--break-->
+
 我们可以使用 `grouped_collection_select` 配合 `JavaScript` 可以很容易将其实现：
 
 

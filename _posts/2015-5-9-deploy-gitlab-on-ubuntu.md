@@ -9,6 +9,7 @@ title: Deploy GitLab on Ubuntu
 * [Ruby on Rails 實戰聖經 —— 網站佈署](https://ihower.tw/rails4/deployment.html)
 * [Installation from source](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/installation.md)
 
+<!--break-->
 
 ## 安装 RVM 和 Ruby
 
@@ -83,7 +84,7 @@ passenger_root /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini;
 passenger_ruby /home/username/.rvm/wrappers/default/ruby;
 ```
 
-这会打开 Passenger 支持，并且指定使用之前用 rvm 安装的 ruby 版本, 其中 
+这会打开 Passenger 支持，并且指定使用之前用 rvm 安装的 ruby 版本, 其中
 
 passenger_root 可以通过以下指令获得：
 
@@ -169,7 +170,7 @@ cp config/unicorn.rb.example config/unicorn.rb
 
 配置 config 文件：
 
-* 把 datebase.yml 里的 username 和 password 改为你自己 mysql 对应的 username 和 password 
+* 把 datebase.yml 里的 username 和 password 改为你自己 mysql 对应的 username 和 password
 * 把 gitlab.yml 里的 /Users/git 改为对应的 /Users/username
 
 执行 bundle 来安装需要的 gem：
@@ -220,4 +221,3 @@ server {
 ```
 sudo service nginx restart
 ```
-
