@@ -39,3 +39,24 @@ a.mdl-navigation__link:hover {
 .shake {
   display:inline-block
 }
+
+.mdl-card {
+  margin-bottom: 10px;
+  a {
+    text-decoration: none;
+  }
+  .mdl-card__supporting-text {
+    padding-bottom: 0;
+    .mdl-card__actions {
+      margin-top: 36px;
+    }
+  }
+}
+
+.home {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
