@@ -15,7 +15,10 @@
       <main class="mdl-layout__content">
         <div class="wrapper">
           {{ content }}
-        </div
+          {% if site.disqus_shortname and page.disqus != false %}
+            {% include disqus.html %}
+          {% endif %}
+        </div>
       </main>
 
       {% include footer.html %}
