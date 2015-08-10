@@ -6,7 +6,6 @@ $(document).ready(function() {
     if (productsOptions) {
       $('#product_id').html(productsOptions);
     }
-    console.log("foobar");
   }
 
   products = $("#product_id").html();
