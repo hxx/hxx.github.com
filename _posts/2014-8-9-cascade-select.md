@@ -23,10 +23,12 @@ title: cascade_select
     <option value="2">iPad</option>
     <option value="3">Macbook Air</option>
     <option value="4">Macbook Pro</option>
+  </optgroup>
   <optgroup label="Google">
     <option value="5">Nexus</option>
     <option value="6">Map</option>
     <option value="7">Glass</option>
+  </optgroup>
 </select>
 
 
