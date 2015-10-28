@@ -10,4 +10,8 @@ disqus_shortname: huangxingxinginfo
 google_analytics_id: UA-45822478-1
 
 # Build settings
-markdown: kramdown
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:     [autolink, tables]
