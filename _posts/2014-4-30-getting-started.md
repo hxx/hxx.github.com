@@ -6,7 +6,7 @@ title: Getting Started
 
 今天再次把RailsGuides里面的Getting Started再做了一遍。
 
-  <!--break-->
+<!--break-->
 
 由于环境已经搭建好，这次跑下来很顺利，对于每步要做什么和为什么要这么做比以前要理解的深刻些了。
 

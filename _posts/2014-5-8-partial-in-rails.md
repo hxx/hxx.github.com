@@ -7,7 +7,7 @@ title: partial in rails
 ###Partials
 Partial templates - usually just called "partials" - are another device for breaking the rendering process into more manageable chunks. With partials, you can extract pieces of code from your templates to separate files and also reuse them throughout your templates.
 
-  <!--break-->
+<!--break-->
 
 	{% highlight ruby %}
 	# will pull in the partial from app/views/shared/_menu.html.erb.

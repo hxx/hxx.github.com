@@ -6,7 +6,7 @@ title: find and find_by
 
   Active Record 提供很多查询方法用来从数据库中获取对象，这些方法都会返回一个 ActiveRecord::Relation 实例。
 
-  <!--break-->
+<!--break-->
 
   Model.find(options) 方法执行的主要操作：
 

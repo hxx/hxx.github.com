@@ -5,7 +5,7 @@ title: render partial again
 
 默认情况下， ActionView::Partials::PartialRenderer 对象存在一个本地变量中，变量名和模板名相同。
 
-  <!--break-->
+<!--break-->
 
 	{% highlight ruby %}
 	<%= render partial: "product" %>
