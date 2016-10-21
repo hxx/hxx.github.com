@@ -12,6 +12,6 @@ google_analytics_id: UA-45822478-2
 # Build settings
 highlighter:      pygments
 permalink:        pretty
-markdown:         redcarpet
+markdown:         kramdown
 redcarpet:
   extensions:     [autolink, tables]
