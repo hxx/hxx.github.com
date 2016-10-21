@@ -10,7 +10,7 @@ disqus_shortname: hxxio
 google_analytics_id: UA-45822478-2
 
 # Build settings
-highlighter:      pygments
+highlighter:      rouge
 permalink:        pretty
 markdown:         kramdown
 redcarpet:
